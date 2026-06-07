@@ -97,7 +97,7 @@ function App() {
         <p>Total Emails in the file :{emaillist.length}</p>
         <button onClick={add} className="bg-blue-950 px-2 py-1 mt-2 text-white rounded-md">{status ? "Sending..." : "Send"}</button>
       </div>
-      <h1 className="bg-blue-700 text-white p-20 text-center " ></h1>
+      <div className="bg-blue-700 text-white p-20 text-center " ></div>
       <div className="bg-blue-300 flex flex-col items-center text-black p-12"></div>
 <History/>
     </div>
